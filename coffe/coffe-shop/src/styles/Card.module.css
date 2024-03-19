@@ -1,0 +1,75 @@
+.container {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.card {
+  height: 26rem;
+  width: 20rem;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.informationProduct {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.priceAssessment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.note {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.star {
+  color: #FFD057;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.titlePrice {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.cart {
+  color: #2f2105;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.cart:hover {
+  color: #ff902a;
+}
+
+.imgCoffe {
+  border-radius: 12px;
+  
+}
